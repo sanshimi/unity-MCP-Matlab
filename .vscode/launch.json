@@ -1,1 +1,14 @@
-
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python 调试test2.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/test2.py",
+            "cwd":"${workspaceFolder}/test",
+            "console": "integratedTerminal",
+            "python":"${workspaceFolder}/.venv/Scripts/python.exe",
+        }
+    ]
+}
